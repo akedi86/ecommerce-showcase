@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #ffffff;
+  color: #333333;
+}
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+}
+
+header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #eee;
+  color: #333333;
+}
+
+button {
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
